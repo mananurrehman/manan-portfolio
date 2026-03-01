@@ -14,11 +14,11 @@ export default function Footer() {
             <span className="hidden sm:inline">All rights reserved.</span>
           </div>
 
-          <div className="flex items-center gap-1 text-xs text-dark-text-dimmer">
+          {/* <div className="flex items-center gap-1 text-xs text-dark-text-dimmer">
             <span>Built with</span>
             <Heart size={12} className="text-terminal-red fill-terminal-red" />
             <span>using React + Tailwind CSS</span>
-          </div>
+          </div> */}
 
           <div className="flex items-center gap-3">
             <a href={personalInfo.github} target="_blank" rel="noopener noreferrer" className="text-dark-text-dimmer hover:text-terminal-green transition-colors" aria-label="GitHub">
