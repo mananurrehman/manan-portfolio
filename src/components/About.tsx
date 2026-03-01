@@ -1,8 +1,8 @@
 import { personalInfo } from "../data/portfolioData";
 
 const stats = [
-  { label: "Projects Deployed", value: "2+", color: "text-terminal-green" },
-  { label: "CI/CD Pipelines", value: "2+", color: "text-terminal-blue" },
+  { label: "Projects Deployed", value: "4+", color: "text-terminal-green" },
+  { label: "CI/CD Pipelines", value: "4+", color: "text-terminal-blue" },
   { label: "Certifications", value: "6", color: "text-terminal-yellow" },
   { label: "CGPA", value: "3.45", color: "text-terminal-purple" },
 ];
