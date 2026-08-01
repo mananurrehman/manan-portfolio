@@ -105,6 +105,19 @@ export const projects = [
       "Maintained strict code quality and formatting standards across the codebase using Flake8 and Black",
     ],
   },
+    {
+    title: "QuickStay – Hotel Booking Platform",
+    tech: ["Python", "Flask", "PostgreSQL", "Docker Compose", "Jenkins", "AWS EC2", "SonarQube", "Trivy", "OWASP"],
+    github: "https://github.com/mananurrehman/quickstay/",
+    description:
+      "A full-featured hotel booking platform with property listings, booking management, and a dedicated admin panel for managing properties, reservations, and users.",
+    highlights: [
+      "User authentication with RBAC — admin panel for full management",
+      "PostgreSQL database with full CRUD for users, properties, and bookings",
+      "End-to-end Jenkins CI/CD pipeline with SonarQube, Trivy, OWASP scanning",
+      "Multi-service containerization with Docker Compose deployed to AWS EC2",
+    ],
+  },
   {
     title: "Bitly Clone – URL Shortener",
     tech: ["Python", "Flask", "PostgreSQL", "Docker Compose", "Jenkins", "AWS EC2"],
@@ -116,19 +129,6 @@ export const projects = [
       "PostgreSQL database with full CRUD operations for users, links, and analytics",
       "Containerized using Docker Compose (Flask + PostgreSQL) with health checks",
       "Automated build and deployment via Jenkins CI/CD pipeline",
-    ],
-  },
-  {
-    title: "QuickStay – Hotel Booking Platform",
-    tech: ["Python", "Flask", "PostgreSQL", "Docker Compose", "Jenkins", "AWS EC2", "SonarQube", "Trivy", "OWASP"],
-    github: "https://github.com/mananurrehman/quickstay/",
-    description:
-      "A full-featured hotel booking platform with property listings, booking management, and a dedicated admin panel for managing properties, reservations, and users.",
-    highlights: [
-      "User authentication with RBAC — admin panel for full management",
-      "PostgreSQL database with full CRUD for users, properties, and bookings",
-      "End-to-end Jenkins CI/CD pipeline with SonarQube, Trivy, OWASP scanning",
-      "Multi-service containerization with Docker Compose deployed to AWS EC2",
     ],
   },
 ];
