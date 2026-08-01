@@ -4,7 +4,7 @@
 
 export const personalInfo = {
   name: "Manan ur Rehman",
-  title: "Junior DevOps Engineer",
+  title: "DevOps Engineer",
   email: "mananurrehman@gmail.com",
   phone: "+92 303 0083727",
   location: "Islamabad, Pakistan",
@@ -13,7 +13,7 @@ export const personalInfo = {
   resumeLink: "#", // Add your resume PDF link here
 };
 
-export const profile = `Junior DevOps Engineer with hands-on experience in CI/CD pipeline automation, containerization with Docker, and cloud deployment on AWS EC2. Built and deployed multiple production-ready projects using Jenkins, Docker Compose, Flask, and PostgreSQL with integrated security scanning. Passionate about cloud infrastructure, automation, and building reliable, scalable systems.`;
+export const profile = `DevOps Engineer with hands-on experience in CI/CD pipeline automation, containerization with Docker, and cloud deployment on AWS EC2. Built and deployed multiple production-ready projects using Jenkins, Docker Compose, Flask, and PostgreSQL with integrated security scanning. Passionate about cloud infrastructure, automation, and building reliable, scalable systems.`;
 
 export const skills = [
   {
