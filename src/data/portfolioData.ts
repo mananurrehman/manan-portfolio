@@ -92,6 +92,20 @@ export const experience = [
 
 export const projects = [
   {
+    title: "Finvestigate – Personal Finance Tracker",
+    tech: ["Python", "Flask", "SQLAlchemy", "Jinja2", "Docker"],
+    github: "https://github.com/mananurrehman/finvestigate",
+    description:
+      "A containerized personal finance management web application built with a monolithic architecture, featuring server-side rendering, email integration, and secure user authentication.",
+    highlights: [
+      "Developed a structured Flask backend utilizing the Application Factory pattern and SQLAlchemy ORM for database modeling and data seeding",
+      "Implemented secure user authentication and role-based access control (RBAC) with dedicated admin and user roles",
+      "Integrated automated email configuration and custom HTTP error routing (403, 404, 500) for a seamless user experience",
+      "Containerized the application using Docker and published the image to Docker Hub, supporting an automated build process",
+      "Maintained strict code quality and formatting standards across the codebase using Flake8 and Black",
+    ],
+  },
+  {
     title: "Bitly Clone – URL Shortener",
     tech: ["Python", "Flask", "PostgreSQL", "Docker Compose", "Jenkins", "AWS EC2"],
     github: "https://github.com/mananurrehman/bitly_clone/",
