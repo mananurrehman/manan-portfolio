@@ -93,7 +93,7 @@ export const experience = [
 export const projects = [
   {
     title: "Finvestigate – Personal Finance Tracker",
-    tech: ["Python", "Flask", "SQLAlchemy", "Jinja2", "Docker"],
+    tech: ["Python", "Flask", "Jinja2", "PostgreSQL", "Docker", "Docker Compose", "Jenkins", "GitHub Actions", "Oracle Cloud", "Azure DevOps"],
     github: "https://github.com/mananurrehman/finvestigate",
     description:
       "A containerized personal finance management web application built with a monolithic architecture, featuring server-side rendering, email integration, and secure user authentication.",
