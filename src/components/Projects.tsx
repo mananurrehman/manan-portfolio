@@ -24,7 +24,6 @@ export default function Projects() {
   }, []);
 
   // Calculate how many dots we actually need
-  // If 3 projects & 2 per page: 3 - 2 = 1. Plus 1 for index 0 = 2 dots total.
   const maxDots = Math.max(0, projects.length - itemsPerPage) + 1;
 
   // Update active dot when user scrolls or swipes
@@ -105,7 +104,10 @@ export default function Projects() {
             onPointerMove={handlePointerMove}
             onPointerUp={handlePointerUpOrLeave}
             onPointerLeave={handlePointerUpOrLeave}
-            className={`flex gap-6 overflow-x-auto pb-4 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] ${
+            // Inline styles added for strict Firefox/IE scrollbar hiding
+            style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+            // Added stricter WebKit scrollbar hiding classes (w-0, h-0)
+            className={`flex gap-6 overflow-x-auto pb-4 [&::-webkit-scrollbar]:!hidden [&::-webkit-scrollbar]:w-0 [&::-webkit-scrollbar]:h-0 [-ms-overflow-style:none] [scrollbar-width:none] ${
               isDragging 
                 ? "cursor-grabbing select-none" 
                 : "cursor-grab snap-x snap-mandatory scroll-smooth"
